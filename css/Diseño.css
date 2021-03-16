@@ -18,8 +18,8 @@ h2{
 
 .grid{ 
     display: grid; 
-    grid-template-columns: 55% 40%; 
-    gap: 5em; 
+    grid-template-columns: 45% 50%; 
+    gap: 7em; 
 }
 
 .grid div{ 
@@ -28,7 +28,7 @@ h2{
 }
 
 .grid div:hover{
-    border: 5px solid #0B0A0A;
+    border: 5px solid red;
     padding: 1em; 
 }
 
@@ -42,10 +42,10 @@ fieldset{
 legend{
     font-family: Arial;
     margin: auto;
-    font-size: 210%;
+    font-size: 310%;
     font-weight: bold;
 }
 
 li{
-    margin-top: 15px;
+    margin-top: 20px;
 }
